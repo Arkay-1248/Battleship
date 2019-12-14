@@ -47,13 +47,13 @@ p1shot
 At this moment, the only way that I knew that I got to this state was that the screen turned a square in the 
                 bottom left to red 
                 
-miss1			  \\
-hit1			   \\
-p2shot		  \\
-miss2			  \\ currently unfinished
-hit2			   \\
-p1win			  \\
-p2win 		  \\
-endgame	  \\
+miss1			  **
+hit1			   **
+p2shot		  **
+miss2			  ** currently unfinished
+hit2			   **
+p1win			  **
+p2win 		  **
+endgame	  **
     
 At this moment, this is as far as I progressed my project.
