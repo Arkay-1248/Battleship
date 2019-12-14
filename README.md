@@ -26,29 +26,29 @@ endgame screen displaying which person won the game
 
 State Table:
     
-    start 		  the only thing that changes the state from here is the start switch
+start 		  the only thing that changes the state from here is the start switch
                 vga initialzed and stays on the start screen until it leaves the start state
                 
-		p1select		Here player one has to turn on the fire switch and the input value from the coordinate switches must be
+p1select		Here player one has to turn on the fire switch and the input value from the coordinate switches must be
                 greater than zero, and less than twenty, because there are only twenty different ways place a 4x1 ship on a 5x5 grid
                 Once the fire switch goes high, the state moves to p1placed. 
                 
-    p1placed		This state is just checking for the instant that the fire button goes low. Once that happens the state returns 
+p1placed		This state is just checking for the instant that the fire button goes low. Once that happens the state returns 
                 to p1select. If it returns to p1select and p1 already has two ships placed, then it goes to p2select
     
-		p2select		The same principles apply here and in p2placed except that 
-    p2placed		if p2 has two ships then the next state will be p1shot.
+p2select		The same principles apply here and in p2placed except that 
+p2placed		if p2 has two ships then the next state will be p1shot.
     
-		p1shot		  At this moment, the only way that I knew that I got to this state was that the screen turned a square in the 
+p1shot		  At this moment, the only way that I knew that I got to this state was that the screen turned a square in the 
                 bottom left to red 
                 
-		miss1			  
-		hit1			  
-		p2shot		  
-		miss2			  
-		hit2			  
-		p1win			  
-		p2win 		  
-		endgame	    
+miss1			  
+hit1			  
+p2shot		  
+miss2			  
+hit2			  
+p1win			  
+p2win 		  
+endgame	    
     
-    At this moment, this is as far as I progressed my project.
+At this moment, this is as far as I progressed my project.
