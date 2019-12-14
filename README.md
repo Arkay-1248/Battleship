@@ -46,14 +46,16 @@ if p2 has two ships then the next state will be p1shot.
 p1shot		  
 At this moment, the only way that I knew that I got to this state was that the screen turned a square in the 
                 bottom left to red 
-                
-miss1			  **
-hit1			   **
-p2shot		  **
-miss2			  ** currently unfinished
-hit2			   **
-p1win			  **
-p2win 		  **
-endgame	  **
+
+# Currently unfinished
+
+miss1			  
+hit1			   
+p2shot		  
+miss2			  
+hit2			   
+p1win			  
+p2win 		  
+endgame	  
     
 At this moment, this is as far as I progressed my project.
